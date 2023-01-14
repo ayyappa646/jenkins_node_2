@@ -1,8 +1,3 @@
-
-second time testing node confuring 
-
-
-
 pipeline {
  agent any
  stages {
