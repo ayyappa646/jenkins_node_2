@@ -4,10 +4,7 @@ second time testing node confuring
 
 
 pipeline {
- agent {label ("test")
- }
- 
- 
+ agent any
  stages {
   stage ('first stage' ){
     steps 'first step in second node'{
