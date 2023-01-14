@@ -1,11 +1,10 @@
 pipeline {
  agent any
- stages {
-  stage ('first stage' ){
-    steps 'first step in second node'{
-      echo "qwertyuiopasdfghayyappaswahgdjhfbjregfbjashbfuygjashb"
-      }
+  stages {
+   stage ('this is first stage') {
+    steps {
+     echo "final request"
      }
+    }
    }
   }
-  
