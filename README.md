@@ -6,9 +6,9 @@ pipeline {
      echo "final request"
      }
     }
-    stage ('this is first stage') {
+    stage ('this is uytufhgfvhghfhgffirst stage') {
     steps {
-     echo "final request"
+     echo "final rejguhbquest"
      }
     }
   }
