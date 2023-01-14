@@ -7,9 +7,9 @@ pipeline {
      }
     }
   stage {
-   steps ('second stage')
+   steps ('second stage') {
     echo "final check"
     }
    }
-   }
   }
+}
