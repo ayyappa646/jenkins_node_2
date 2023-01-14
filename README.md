@@ -6,5 +6,10 @@ pipeline {
      echo "final request"
      }
     }
+    stage ('this is first stage') {
+    steps {
+     echo "final request"
+     }
+    }
   }
 }
