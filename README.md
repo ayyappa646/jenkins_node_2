@@ -11,5 +11,11 @@ pipeline {
      echo "final rejguhbquest"
      }
     }
+    stage {
+     steps ('second step'){
+      echo "thia is final step of the pipw line"
+      }
+     }
+    
   }
 }
